@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AllowUserOverrides</key>
+			<true/>
+            <key>AllowedKernelExtensions</key>
+			<dict>
+				<key>X9E956P446</key>
+				<array>
+					<string>com.crowdstrike.sensor</string>
+				</array>
+            </dict>
+			<key>AllowedTeamIdentifiers</key>
+			<array>
+				<string>X9E956P446</string><!-- CrowdStrike -->
+			</array>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>Kext Policy settings</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.syspolicy.kernel-extension-policy.4D1CFBC2-9E8D-487D-A702-6C750ECC7113</string>
+			<key>PayloadOrganization</key>
+			<string>GU</string>
+			<key>PayloadType</key>
+			<string>com.apple.syspolicy.kernel-extension-policy</string>
+			<key>PayloadUUID</key>
+			<string>4D1CFBC2-9E8D-487D-A702-6C750ECC7113</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Whitelisted kernel extensions for 10.13.4+</string>
+	<key>PayloadDisplayName</key>
+	<string>Kernel Extension Policy</string>
+	<key>PayloadEnabled</key>
+	<true/>
+	<key>PayloadIdentifier</key>
+	<string>F61A5765-A5DB-48DE-B6B2-4BEFACD339E3</string>
+	<key>PayloadOrganization</key>
+	<string>GU</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>0DE3FB9F-C19B-46D1-96E2-D9352D6FD071</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
