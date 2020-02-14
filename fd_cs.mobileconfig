@@ -25,7 +25,7 @@
 						<key>Allowed</key>
 						<true/>
 						<key>CodeRequirement</key>
-						<string>identifier "com.crowdstrike.sensor" and anchor apple</string>
+						<string>identifier falcond and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = X9E956P446</string>
 						<key>Comment</key>
 						<string></string>
 						<key>Identifier</key>
@@ -45,7 +45,7 @@
                         <key>Allowed</key>
                         <true/>
                         <key>CodeRequirement</key>
-                        <string>identifier "com.crowdstrike.sensor" and anchor apple</string>
+                        <string>identifier falcond and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = X9E956P446</string>
                     </dict>
 				</array>
 			</dict>
@@ -54,7 +54,7 @@
 	<key>PayloadDisplayName</key>
 	<string>Full Disk Access Falcond</string>
 	<key>PayloadIdentifier</key>
-	<string>com.github.erikberglund.ProfileCreator.758E61AA-F5D6-4942-BE76-BD64392A86E1</string>
+	<string>com.apple.TCC.configuration-profile-policy.758E61AA-F5D6-4942-BE76-BD64392A86E1</string>
 	<key>PayloadOrganization</key>
 	<string>ProfileCreator</string>
 	<key>PayloadScope</key>
